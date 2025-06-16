@@ -1,4 +1,3 @@
-// Movimentação de peça de xadrez
 #include <stdio.h>
 int main() {
     
@@ -28,27 +27,13 @@ int main() {
     printf ("\n");
  printf ("movimento do cavalo\n");
         for (int c = 1; c <= 1; c++) { 
-        for( int a = 1; a <= 1; a++) {
-           printf ("%d\t", c * a );
+           printf ("%d\t", c );
       printf ("\n");
       printf ("cima\n");
       printf ("cima\n");
       printf ("esquerda\n");
         }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
     
-    
+
     return 0;
 }
